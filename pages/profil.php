@@ -12,7 +12,7 @@
 <center>
 <h1>Profil Universitas Dharma Wacana </h1>
 
- <img src="/assets/img/logo-universitas.png" 
+ <img src="assets/img/logo-universitas.png" 
          alt="Foto Profil Universitas" 
          class="foto-profil">
     <ul class="navbar-menu">
