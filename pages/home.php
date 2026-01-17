@@ -37,7 +37,7 @@
 <center>
 <h3>Selamat Datang di Universitas Dharma Wacana Metro</h3>
 </center> 
- <img src="/tugas emmy/tugas emmy php/assets/img/logo-universitas.png" 
+ <img src="assets/img/logo-universitas.png" 
          alt="Foto Profil Universitas" 
          class="foto-profil">
     <ul class="navbar-menu">
