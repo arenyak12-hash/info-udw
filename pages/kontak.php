@@ -13,7 +13,7 @@
         <div class="contact-item">
             <i class="fas fa-phone"></i>
             <div>
-                <h4>Telepon</h4>
+                <h4>Telep</h4>
                 <p>(0725) 123456</p>
             </div>
         </div>
