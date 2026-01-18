@@ -6,7 +6,7 @@
             <i class="fas fa-envelope"></i>
             <div>
                 <h4>Email</h4>
-                <p>info@dharmawacana.ac.id</p>
+                <p>info@dharmawacana.a.id</p>
             </div>
         </div>
         
