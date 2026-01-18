@@ -1,6 +1,5 @@
 <footer class="footer">
     <div class="footer-container">
-
         <!-- Informasi Kampus -->
         <div class="footer-section">
             <h2>Universitas Dharma Wacana Metro</h2>
@@ -10,30 +9,28 @@
         </div>
 
         <div class="footer-section">
-    <h4>Kontak & Media Sosial</h4>
+            <h4>Kontak & Media Sosial</h4>
+            <div class="social-box">
+                <a href="mailto:info@dharmawacana.ac.id" class="icon-box email">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>Email</span>
+                </a>
 
-    <div class="social-box">
-        <a href="mailto:info@dharmawacana.ac.id" class="icon-box email">
-            <i class="fa-solid fa-envelope"></i>
-            <span>Email</span>
-        </a>
+                <a href="https://www.instagram.com/universitas.dharmawacana"
+                   target="_blank"
+                   class="icon-box instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
 
-        <a href="https://www.instagram.com/universitas.dharmawacana"
-           target="_blank"
-           class="icon-box instagram">
-            <i class="fa-brands fa-instagram"></i>
-            <span>Instagram</span>
-        </a>
-
-        <a href="https://youtube.com/@universitas.dharmawacana"
-           target="_blank"
-           class="icon-box youtube">
-            <i class="fa-brands fa-youtube"></i>
-            <span>YouTube</span>
-        </a>
-    </div>
-</div>
-
+                <a href="https://youtube.com/@universitas.dharmawacana"
+                   target="_blank"
+                   class="icon-box youtube">
+                    <i class="fa-brands fa-youtube"></i>
+                    <span>YouTube</span>
+                </a>
+            </div>
+        </div>
 
         <!-- Alamat -->
         <div class="footer-section">
@@ -49,7 +46,6 @@
                <h4>📍 Lihat di Google Maps</h4>
             </a>
         </div>
-
     </div>
 
     <!-- Maps Preview -->
@@ -70,3 +66,7 @@
         </marquee>
     </div>
 </footer>
+
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

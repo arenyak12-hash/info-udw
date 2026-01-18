@@ -12,15 +12,15 @@ $query = mysqli_query($koneksi, "SELECT * FROM berita ORDER BY tanggal DESC");
 
 <h2>Berita Universitas</h2>
 
-<ul>
+<ul class="news-list">
 <?php while ($data = mysqli_fetch_assoc($query)) { ?>
-    <li>
+    <li class="news-item">
         <b><?= $data['judul']; ?></b>
         <br>
-        <small><?= $data['tanggal']; ?></small>
-        <br>
+        <small><i class="fas fa-calendar"></i> <?= $data['tanggal']; ?></small>
+        <br><br>
         <a href="index.php?page=berita_detail&id=<?= $data['id_berita']; ?>">
-            Baca selengkapnya
+            <i class="fas fa-book-reader"></i> Baca Selengkapnya
         </a>
     </li>
 <?php } ?>
